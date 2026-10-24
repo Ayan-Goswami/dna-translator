@@ -1,4 +1,5 @@
-DNA Translator
+#DNA Translator
+
 A beginner-friendly Python command-line bioinformatics tool for translating DNA coding sequences into protein sequences and exploring core concepts in molecular genetics.
 <p align="center">
   <strong>DNA → Codons → Protein</strong>
