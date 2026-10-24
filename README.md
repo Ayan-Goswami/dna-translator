@@ -79,10 +79,15 @@ Project structure
 
 dna-translator/
 ├── dna_translator.py
+
 ├── test_dna_translator.py
+
 ├── hbb_coding.fasta
+
 ├── README.md
+
 ├── .gitignore
+
 └── LICENSE
 
 Learning objectives
