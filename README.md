@@ -77,17 +77,12 @@ Mutation categories are computational descriptions of codon-level consequences a
 
 Project structure
 
-dna-translator/
+dna-translator
 ├── dna_translator.py
-
 ├── test_dna_translator.py
-
 ├── hbb_coding.fasta
-
 ├── README.md
-
 ├── .gitignore
-
 └── LICENSE
 
 Learning objectives
