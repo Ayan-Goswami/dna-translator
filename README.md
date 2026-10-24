@@ -76,6 +76,7 @@ This is an educational project, not a clinically validated variant-analysis pipe
 Mutation categories are computational descriptions of codon-level consequences and should not be interpreted as a clinical assessment of a genetic variant.
 
 Project structure
+
 dna-translator/
 ├── dna_translator.py
 ├── test_dna_translator.py
