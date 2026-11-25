@@ -59,13 +59,14 @@ python dna_translator.py translate --file hbb_coding.fasta --fasta hbb_protein.f
 Example dataset: human beta-globin (HBB)
 The included hbb_coding.fasta file is intended for practicing coding-sequence translation and reading-frame analysis.
 
-The reference protein begins with:
+### The reference protein begins with:
 MVHLTPEEKSAVTALWGKV
 For the 444-base coding sequence in the project reference, the expected translated protein has 147 amino acids, excluding the terminal stop codon (148 codons including the stop).
 Run the tests
 python -m unittest -v
 The tests cover codon-table size, start/stop codons, DNA validation, reverse-complement generation, translation, ORF detection, substitution-count arithmetic, and FASTA output.
-How it works
+
+## How it works
 1. Validate input. Normalize case, remove whitespace, and allow only A, C, G, and T.
 2. Build the genetic code. Generate codons from the four bases and map them to standard amino acid symbols.
 3. Translate codons. Read the sequence in triplets and stop at a termination codon.
