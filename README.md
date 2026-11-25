@@ -6,7 +6,8 @@ A beginner-friendly Python command-line bioinformatics tool for translating DNA 
 </p>
 
 Overview
-DNA Translator is an educational project that applies fundamental molecular biology concepts through Python. It provides command-line operations for sequence translation, open reading frame (ORF) detection, codon-table inspection, single-nucleotide substitution analysis, and FASTA export.
+
+-DNA Translator is an educational project that applies fundamental molecular biology concepts through Python. It provides command-line operations for sequence translation, open reading frame (ORF) detection, codon-table inspection, single-nucleotide substitution analysis, and FASTA export.
 
 The project uses the standard genetic code and includes a human beta-globin (HBB) coding sequence as an example dataset.
 Features
