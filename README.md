@@ -5,12 +5,12 @@ A beginner-friendly Python command-line bioinformatics tool for translating DNA 
   <strong>DNA → Codons → Protein</strong>
 </p>
 
-Overview
+## Overview
 
--DNA Translator is an educational project that applies fundamental molecular biology concepts through Python. It provides command-line operations for sequence translation, open reading frame (ORF) detection, codon-table inspection, single-nucleotide substitution analysis, and FASTA export.
+DNA Translator is an educational project that applies fundamental molecular biology concepts through Python. It provides command-line operations for sequence translation, open reading frame (ORF) detection, codon-table inspection, single-nucleotide substitution analysis, and FASTA export.
 
 The project uses the standard genetic code and includes a human beta-globin (HBB) coding sequence as an example dataset.
-Features
+## Features
 - DNA translation — translate a coding DNA sequence into a one-letter amino acid sequence.
 - ORF detection — search three forward reading frames or all six reading frames for complete start-to-stop ORFs.
 - Codon table — generate and display the 64-codon standard genetic code.
@@ -18,10 +18,10 @@ Features
 - FASTA export — save translated protein sequences for downstream educational analyses.
 - Input validation — reject empty sequences and characters outside A, C, G, and T.
 - Automated tests — use Python's built-in unittest framework to check core behavior.
-Requirements
+## Requirements
 - Python 3.9 or newer recommended
 - No third-party packages required
-Getting started
+## Getting started
 1. Clone the repository
 git clone https://github.com/Ayan-Goswami/dna-translator.git
 cd dna-translator
