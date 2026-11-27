@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from typing import Annotated, Optional
+from typing import Annotated
 
 import pandas as pd
 import typer
@@ -37,9 +37,9 @@ def orfs(
     min_aa: Annotated[int, typer.Option("--min-aa", "-m", help="Minimum ORF length in amino acids.")] = 30,
     table: Annotated[int, typer.Option("--table", "-t", help="NCBI genetic code table ID (1=Standard, 2=Vert Mito, 11=Bacterial).")] = 1,
     alt_starts: Annotated[bool, typer.Option("--alt-starts", help="Allow organism-specific alternative start codons.")] = False,
-    csv_out: Annotated[Optional[Path], typer.Option("--csv", help="Export ORF + physicochemical table to CSV.")] = None,
-    json_out: Annotated[Optional[Path], typer.Option("--json", help="Export results to JSON.")] = None,
-    fasta_out: Annotated[Optional[Path], typer.Option("--fasta", help="Export translated ORF proteins as a FASTA file.")] = None,
+    csv_out: Annotated[Path | None, typer.Option("--csv", help="Export ORF + physicochemical table to CSV.")] = None,
+    json_out: Annotated[Path | None, typer.Option("--json", help="Export results to JSON.")] = None,
+    fasta_out: Annotated[Path | None, typer.Option("--fasta", help="Export translated ORF proteins as a FASTA file.")] = None,
 ) -> None:
     """Scan all 6 reading frames, extract ORFs, and profile each predicted protein."""
     records = _load_fasta_records(fasta_file)
@@ -116,7 +116,7 @@ def orfs(
 def translate(
     fasta_file: Annotated[Path, typer.Argument(help="Input DNA/RNA FASTA file.")],
     table: Annotated[int, typer.Option("--table", "-t", help="NCBI genetic code table ID.")] = 1,
-    fasta_out: Annotated[Optional[Path], typer.Option("--fasta", help="Export all 6 frames to a protein FASTA file.")] = None,
+    fasta_out: Annotated[Path | None, typer.Option("--fasta", help="Export all 6 frames to a protein FASTA file.")] = None,
 ) -> None:
     """Translate every sequence in a FASTA file across all 6 reading frames."""
     records = _load_fasta_records(fasta_file)
