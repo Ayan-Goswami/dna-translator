@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+
 from Bio.SeqUtils.ProtParam import ProteinAnalysis
 from Bio.SeqUtils.ProtParamData import kd
 

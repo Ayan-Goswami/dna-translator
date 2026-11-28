@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+
 from Bio.Data import CodonTable
 from Bio.Seq import Seq
 

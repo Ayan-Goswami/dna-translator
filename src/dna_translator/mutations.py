@@ -1,7 +1,9 @@
 from dataclasses import dataclass
+
 from Bio.Seq import Seq
 from Bio.SeqUtils import seq3
-from dna_translator.core import clean_dna, _trim_to_codons
+
+from dna_translator.core import _trim_to_codons, clean_dna
 
 AA_CLASSES = {
     "A": "Hydrophobic", "V": "Hydrophobic", "I": "Hydrophobic",
