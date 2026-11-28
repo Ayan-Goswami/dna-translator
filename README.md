@@ -21,7 +21,7 @@ A Python bioinformatics package, command-line tool, and interactive Streamlit da
 ### 1. Local Installation
 
 ```bash
-git clone [https://github.com/Ayan-Goswami/dna-translator.git](https://github.com/Ayan-Goswami/dna-translator.git)
+git clone (https://github.com/Ayan-Goswami/dna-translator.git)
 cd dna-translator
 pip install -e .
 ```
