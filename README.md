@@ -2,7 +2,7 @@
 
 [![CI — Lint & Biological Tests](https://github.com/Ayan-Goswami/dna-translator/actions/workflows/ci.yml/badge.svg)](https://github.com/Ayan-Goswami/dna-translator/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR-APP-URL.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dna-translator-v2.streamlit.app/)
 
 A Python bioinformatics package, command-line tool, and interactive Streamlit dashboard for 6-frame nucleotide translation, coordinate-aware Open Reading Frame (ORF) discovery, *in silico* mutation impact simulation, and protein physicochemical profiling.
 
