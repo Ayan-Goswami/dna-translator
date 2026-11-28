@@ -118,7 +118,7 @@ def build_alignment_html(wt_prot: str, mut_prot: str, chunk: int = 60) -> str:
 
 
 # --- Header & Sidebar Controls ---
-st.title("🧬 DNA Translator v2.0")
+st.title("DNA Translator v2.0")
 st.caption("6-Frame Open Reading Frame Finder • In Silico Variant Impact Simulator • Protein Physicochemical Profiler")
 
 with st.sidebar:
