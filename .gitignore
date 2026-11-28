@@ -222,3 +222,4 @@ __marimo__/
 *.egg-info/
 .pytest_cache/
 __pycache__/
+.vscode/
